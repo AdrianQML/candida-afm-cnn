@@ -34,7 +34,7 @@ GitHub contains notebooks, documentation, compact results, figures and manifests
 
 **Copyright © 2026 The Authors.**
 
-Release version: v1.0.0. Repository URL, Zenodo version DOI, publication DOI and release date are intentionally unassigned. No public download URL is asserted yet.
+Release version: v1.0.0. Repository: [https://github.com/AdrianQML/candida-afm-cnn](https://github.com/AdrianQML/candida-afm-cnn). Zenodo version DOI, publication DOI and release date remain pending.
 
 ## Quick start
 
@@ -61,4 +61,4 @@ Notebook outputs are preserved historical outputs. Portable notebook sources hav
 
 ## Citation and licensing
 
-[CITATION.cff](CITATION.cff) records the confirmed author order, affiliations, available ORCIDs and corresponding-author emails. Repository URL, Zenodo version DOI, publication DOI and release date remain pending. Copyright © 2026 The Authors. Project-authored executable code is released under MIT. Project-authored datasets, metadata, documentation, figures, tables and custom CNN model artifacts are released under CC BY 4.0 where distributed. The three VGG16-derived H5 files are not included in public Zenodo v1.0.0; the VGG16 notebooks, benchmark results, figures and documentation remain included. Those notebooks use Keras VGG16 with `weights="imagenet"`. Exact H5 redistribution was intentionally omitted because upstream redistribution permission for ImageNet-derived pretrained components was not established clearly enough. Third-party and pretrained components remain subject to the exclusions and notices in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+[CITATION.cff](CITATION.cff) records the confirmed author order, affiliations, available ORCIDs and corresponding-author emails. Zenodo version DOI, publication DOI and release date remain pending. Copyright © 2026 The Authors. Project-authored executable code is released under MIT. Project-authored datasets, metadata, documentation, figures, tables and custom CNN model artifacts are released under CC BY 4.0 where distributed. The three VGG16-derived H5 files are not included in public Zenodo v1.0.0; the VGG16 notebooks, benchmark results, figures and documentation remain included. Those notebooks use Keras VGG16 with `weights="imagenet"`. Exact H5 redistribution was intentionally omitted because upstream redistribution permission for ImageNet-derived pretrained components was not established clearly enough. Third-party and pretrained components remain subject to the exclusions and notices in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
