@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "image_size": 224,
+  "batch_size": 32,
+  "epochs_requested": 50,
+  "learning_rate": 0.0001,
+  "regularisation": "L1",
+  "l1_factor": 0.001,
+  "training_samples": 2400,
+  "validation_samples": 600,
+  "training_time_minutes": 7.544081836283355,
+  "best_epoch_by_val_loss": 50,
+  "best_val_loss": 0.3263323903083801,
+  "val_accuracy_at_best_val_loss_epoch": 0.9883333444595337,
+  "model_path": "Models/CNN_CAlbicans_Balanced_L1.h5"
+}

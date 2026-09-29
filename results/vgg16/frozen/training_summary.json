@@ -1,0 +1,17 @@
+{
+  "experiment": "CNN_CAlbicans_VGG16_Frozen",
+  "seed": 42,
+  "epochs_requested": 50,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "training_samples": 2400,
+  "validation_samples": 600,
+  "training_time_minutes": 12.674374664350035,
+  "best_epoch_by_val_loss": 10,
+  "best_val_loss": 0.1515074521303177,
+  "val_accuracy_at_best_val_loss_epoch": 0.9850000143051147,
+  "total_parameters": 27626307,
+  "trainable_parameters": 12911619,
+  "non_trainable_parameters": 14714688,
+  "preprocessing": "keras.applications.vgg16.preprocess_input"
+}

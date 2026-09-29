@@ -1,0 +1,10 @@
+# Linux x86_64 / WSL2; observed TFQ scientific stack.
+# No original machine prefix is required. Use a new environment.
+name: candida-afm-cnn
+channels:
+  - defaults
+dependencies:
+  - python=3.11.8
+  - pip=25.0.1
+  - pip:
+      - -r requirements-pinned.txt

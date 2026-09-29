@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+*:Zone.Identifier
+__pycache__/
+.cache/
+.venv/
+*.h5
+*.zip
+runs/
+*.tmp
+*.log
+*~
+.DS_Store

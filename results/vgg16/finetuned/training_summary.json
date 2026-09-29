@@ -1,0 +1,26 @@
+{
+  "experiment": "CNN_CAlbicans_VGG16_FineTuned",
+  "seed": 42,
+  "stage1_epochs": 20,
+  "stage2_epochs": 30,
+  "total_epochs": 50,
+  "stage1_learning_rate": 0.001,
+  "stage2_learning_rate": 1e-05,
+  "stage1_training_time_minutes": 5.208072406516779,
+  "stage2_training_time_minutes": 7.466196958983346,
+  "total_training_time_minutes": 12.674269365500125,
+  "best_stage1_epoch": 10,
+  "best_stage1_val_loss": 0.1515074521303177,
+  "best_stage2_epoch": 22,
+  "best_stage2_val_loss": 0.12381881475448608,
+  "best_stage2_val_accuracy": 0.9916666746139526,
+  "total_parameters": 27626307,
+  "stage1_trainable_parameters": 12911619,
+  "stage2_trainable_parameters": 19991043,
+  "fine_tuned_layers": [
+    "block5_conv1",
+    "block5_conv2",
+    "block5_conv3"
+  ],
+  "preprocessing": "keras.applications.vgg16.preprocess_input"
+}

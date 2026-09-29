@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "image_size": 224,
+  "batch_size": 32,
+  "epochs_requested": 50,
+  "learning_rate": 0.0001,
+  "training_samples": 1840,
+  "training_class_counts": {
+    "Intermediate": 640,
+    "Nanodomain": 800,
+    "Outside": 400
+  },
+  "validation_samples": 460,
+  "validation_class_counts": {
+    "Intermediate": 160,
+    "Nanodomain": 200,
+    "Outside": 100
+  },
+  "training_time_minutes": 6.153852872949938,
+  "best_epoch_by_val_loss": 37,
+  "best_val_loss": 0.012524782679975033,
+  "val_accuracy_at_best_val_loss_epoch": 0.9956521987915039,
+  "model_path": "Models/CNN_CAlbicans_Imbalanced_Baseline.h5"
+}

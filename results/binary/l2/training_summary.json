@@ -1,0 +1,23 @@
+{
+  "experiment": "CNN_CAlbicans_Binary_L2",
+  "seed": 42,
+  "epochs_requested": 50,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "l2_factor": 0.001,
+  "training_samples": 1600,
+  "validation_samples": 400,
+  "training_class_counts": {
+    "Nanodomain": 800,
+    "Outside": 800
+  },
+  "validation_class_counts": {
+    "Nanodomain": 200,
+    "Outside": 200
+  },
+  "training_time_minutes": 5.408802493283535,
+  "best_epoch_by_val_loss": 50,
+  "best_val_loss": 0.00813349336385727,
+  "val_accuracy_at_best_val_loss_epoch": 1.0,
+  "total_parameters": 14152130
+}

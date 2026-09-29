@@ -1,0 +1,7 @@
+source,destination,role,bytes,sha256,project_license,license_note
+Data_Adrian.zip,zenodo/data/candida_balanced_dataset.zip,dataset,145125355,a2cd62e7c247dfe728c82cbd97a234642048f21e0dd49a7053c067ff44b410e9,CC-BY-4.0,Project-owned rights only; see LICENSE; attribution details pending
+Data_Adrian_Imbalance.zip,zenodo/data/candida_imbalanced_dataset.zip,dataset,110070588,8c8c3aabcf21447f045277d1b984d33da7924e76718579563a0f51d6e3fde2da,CC-BY-4.0,Project-owned rights only; see LICENSE; attribution details pending
+TestingAdrian.zip,zenodo/data/candida_cross_cell_test_balanced_original.zip,dataset,39216838,012f873f3fe2813694dbeb6f2e10017be9f03938e0ad67b85b22af1076dfc30b,CC-BY-4.0,Project-owned rights only; see LICENSE; attribution details pending
+TestingAdrian_Labelled.zip,zenodo/data/candida_cross_cell_test_balanced_labelled.zip,dataset,78544433,4dea738a287bbe737336e682df004b85726a279ae36fd3363e36be1f3f85b2f2,CC-BY-4.0,Project-owned rights only; see LICENSE; attribution details pending
+TestingAdrianImbalance.zip,zenodo/data/candida_cross_cell_test_imbalanced.zip,dataset,37314143,1715a071fd1fbb8fe59fa146db00a805d89c65ba75074083aa3bb1b2afa31fe5,CC-BY-4.0,Project-owned rights only; see LICENSE; attribution details pending
+TestingalltheCurves.zip,zenodo/data/candida_full_force_map_128x128.zip,dataset,711351028,e6264fb1224aa32e0a4e5776aa6bec1aea282186889f3da2eede19e8eaf67063,CC-BY-4.0,Project-owned rights only; see LICENSE; attribution details pending

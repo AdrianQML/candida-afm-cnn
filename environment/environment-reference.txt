@@ -1,0 +1,92 @@
+Observed publication reference environment
+Inspection date: 2026-09-25
+Scope: current active TFQ environment; not proof that every version/hardware item
+was unchanged since the original training runs. Historical evidence confirms
+Python 3.11.8 (notebook metadata), TensorFlow 2.15.0 (outputs), Keras 2.15.0 (H5).
+
+Conda environment: TFQ
+Observed Python executable (provenance only, never an installation requirement):
+/home/adrian/anaconda3/envs/TFQ/bin/python
+Python: 3.11.8 (main, Feb 26 2024, 21:39:34) [GCC 11.2.0]
+
+Scientific packages:
+tensorflow==2.15.0
+keras==2.15.0
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+matplotlib==3.9.0
+Pillow==10.3.0
+seaborn==0.13.2
+h5py==3.11.0
+scipy==1.11.4
+
+Installed but NOT required/imported by released workflows:
+tensorflow-quantum==0.7.3
+
+Observed optional notebook tooling (not in scientific specification):
+ipykernel==6.29.4
+jupyterlab==4.2.2
+pip==25.0.1
+
+Observed NVIDIA Python distributions:
+nvidia-cublas-cu12==12.3.4.1
+nvidia-cuda-cupti-cu12==12.3.101
+nvidia-cuda-nvcc-cu12==12.3.107
+nvidia-cuda-nvrtc-cu12==12.3.107
+nvidia-cuda-runtime-cu12==12.3.101
+nvidia-cudnn-cu12==8.9.7.29
+nvidia-cufft-cu12==11.0.12.1
+nvidia-curand-cu12==10.3.4.107
+nvidia-cusolver-cu12==11.5.4.101
+nvidia-cusparse-cu12==12.2.0.103
+nvidia-nccl-cu12==2.19.3
+nvidia-nvjitlink-cu12==12.3.101
+
+TensorFlow build: CUDA 12.2; cuDNN 8 (build major only; build minor/patch not verified).
+CUDA build: true; ROCm build: false; TensorRT build: true.
+Build compute targets: sm_50, sm_60, sm_70, sm_75, compute_80.
+Installed libcudart version API: 12030 (CUDA 12.3), return status 0.
+Installed libcudnn version API: 8907 (cuDNN 8.9.7).
+These APIs queried libraries from TFQ's NVIDIA packages; libraries selected by
+TensorFlow during actual inference were not verified (no model execution).
+System nvcc: CUDA 12.5, V12.5.40.
+NVIDIA driver: 596.58; nvidia-smi utility: 595.78.
+nvidia-smi CUDA Version: 13.2 (driver-supported CUDA level, NOT TF build/runtime).
+TensorFlow import emitted duplicate cuDNN/cuFFT/cuBLAS registration messages and
+TensorRT-not-found warning. Model runtime functionality was not tested.
+Observed NVIDIA pins differ from TensorFlow 2.15.0's and-cuda extra requirements;
+the specification records observed pins and deliberately does not use that extra.
+
+GPU: NVIDIA RTX 5000 Ada Generation Laptop GPU
+VRAM: 16376 MiB
+OS: Ubuntu 22.04.4 LTS, x86_64, WSL2
+Running kernel: 6.18.33.2-microsoft-standard-WSL2
+WSL package: 2.7.14.0; wsl.exe kernel report: 6.18.33.2-2
+WSLg: 1.0.73.2
+Windows version reported by WSL: 10.0.26200.9457
+CPU: 13th Gen Intel Core i9-13900H
+WSL-visible CPUs: 20 logical; reported topology 10 cores, 2 threads/core
+WSL-visible RAM: 33475416064 bytes (31.18 GiB)
+WSL swap: 8589934592 bytes (8 GiB)
+Host physical RAM and physical core topology: not independently verified.
+
+Direct nonstandard imports (number of notebooks):
+tensorflow: 15
+numpy: 15
+pandas: 15
+sklearn: 15
+matplotlib: 15
+seaborn: 10
+Keras is imported via tensorflow.keras and from tensorflow import keras.
+Pillow is an indirect image-loading dependency; h5py supports H5 serialization.
+SciPy is a transitive scientific dependency. No direct tensorflow_quantum import.
+Seaborn is used by the seven balanced training notebooks, the balanced L2
+cross-cell notebook's retained workflow, and the two imbalanced notebooks.
+
+requirements-pinned.txt contains the 69-package observed scientific dependency
+closure with exact versions. Active dependency metadata checks passed.
+Conda solving, fresh installation, model loading, training and inference were
+not performed. The pins are not an artifact-hashed or platform-independent lock.
+
+The approximately 31.18 GiB is memory visible to WSL and does not establish the laptop's total physical RAM. requirements-pinned.txt is an exact-version reference for the observed scientific dependency set, not a cryptographically locked environment.

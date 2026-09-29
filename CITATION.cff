@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file."
+title: "Convolutional Neural Networks for Nanobiomechanical Classification of Atomic Force Microscopy Force-Distance Curves"
+type: software
+version: 1.0.0
+abstract: "CNN classification of Candida albicans AFM force-distance curve images, with balanced, imbalanced, binary, VGG16 and independent cross-cell evaluations."
+# Copyright © 2026 The Authors.
+authors:
+  - given-names: "Adrian"
+    family-names: "Martinez-Rivas"
+    affiliation: "CIC, Instituto Politécnico Nacional (IPN), 07738 Mexico City, Mexico"
+    orcid: "https://orcid.org/0000-0001-8481-5896"
+    # Corresponding author; CFF has no corresponding-author boolean field.
+    email: "amartinezri@cic.ipn.mx"
+  - given-names: "Cécile"
+    family-names: "Formosa-Dague"
+    affiliation: "TBI, Université de Toulouse, CNRS, INRAE, INSA, 31400 Toulouse, France"
+    orcid: "https://orcid.org/0000-0002-8627-3784"
+  - given-names: "Luis Emilio"
+    family-names: "Magaña Espinal"
+    affiliation: "CIC, Instituto Politécnico Nacional (IPN), 07738 Mexico City, Mexico"
+  - given-names: "Ophelie"
+    family-names: "Thomas-Chemin"
+    affiliation: "LAAS-CNRS, Université de Toulouse, CNRS, 31031 Toulouse, France"
+    orcid: "https://orcid.org/0000-0002-1846-8926"
+  - given-names: "Kevin"
+    family-names: "Carillo"
+    affiliation: "TBS Education, 20 Boulevard Lascrosses, 31068 Toulouse, France"
+    orcid: "https://orcid.org/0000-0002-9714-1621"
+  - given-names: "Childérick"
+    family-names: "Séverac"
+    affiliation: "RESTORE Research Center, Université de Toulouse, INSERM, CNRS, EFS, ENVT, Université P. Sabatier, 31100 Toulouse, France"
+    orcid: "https://orcid.org/0000-0002-6778-6437"
+  - given-names: "Etienne"
+    family-names: "Dague"
+    affiliation: "LAAS-CNRS, Université de Toulouse, CNRS, 31031 Toulouse, France"
+    orcid: "https://orcid.org/0000-0003-3290-9166"
+    # Corresponding author; CFF has no corresponding-author boolean field.
+    email: "edague@laas.fr"
+# Pending: repository-code URL, Zenodo version DOI, publication DOI and release date.

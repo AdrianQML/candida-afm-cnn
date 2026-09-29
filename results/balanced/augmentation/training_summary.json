@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "image_size": 224,
+  "batch_size": 32,
+  "epochs_requested": 50,
+  "learning_rate": 0.0001,
+  "regularisation": "Data Augmentation",
+  "augmentation": {
+    "horizontal_flip": true,
+    "rotation_factor": 0.1,
+    "zoom_factor": 0.2
+  },
+  "training_samples": 2400,
+  "validation_samples": 600,
+  "training_time_minutes": 7.768943382966609,
+  "best_epoch_by_val_loss": 40,
+  "best_val_loss": 0.07116836309432983,
+  "val_accuracy_at_best_val_loss_epoch": 0.9783333539962769,
+  "model_path": "Models/CNN_CAlbicans_Balanced_DataAugmentation.h5"
+}

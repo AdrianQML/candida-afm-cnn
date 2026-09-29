@@ -1,0 +1,27 @@
+manuscript_result,experiment,result_file,metric,value,unit,supporting_file
+Balanced L2 validation,balanced/l2,results/balanced/l2/validation_predictions.csv,correct,594,curves,results/balanced/l2/validation_report.csv
+Balanced L2 validation,balanced/l2,results/balanced/l2/validation_predictions.csv,samples,600,curves,results/balanced/l2/validation_report.csv
+Balanced L2 validation,balanced/l2,results/balanced/l2/validation_report.csv,accuracy_percent,99.0000,percent,results/balanced/l2/validation_predictions.csv
+Balanced L2 validation,balanced/l2,results/balanced/l2/validation_report.csv,macro_f1,0.990000,,results/balanced/l2/validation_predictions.csv
+Imbalanced L2 validation,imbalanced/l2,results/imbalanced/l2/validation_predictions.csv,correct,457,curves,results/imbalanced/l2/validation_report.csv
+Imbalanced L2 validation,imbalanced/l2,results/imbalanced/l2/validation_predictions.csv,samples,460,curves,results/imbalanced/l2/validation_report.csv
+Imbalanced L2 validation,imbalanced/l2,results/imbalanced/l2/validation_report.csv,accuracy_percent,99.3478,percent,results/imbalanced/l2/validation_predictions.csv
+Imbalanced L2 validation,imbalanced/l2,results/imbalanced/l2/validation_summary.json,balanced_accuracy_percent,99.2917,percent,results/imbalanced/l2/validation_predictions.csv
+Independent balanced cross-cell L2,balanced/l2/cross_cell,results/balanced/l2/cross_cell/predictions.csv,correct,898,curves,results/balanced/l2/cross_cell/report.csv
+Independent balanced cross-cell L2,balanced/l2/cross_cell,results/balanced/l2/cross_cell/predictions.csv,samples,900,curves,results/balanced/l2/cross_cell/report.csv
+Independent balanced cross-cell L2,balanced/l2/cross_cell,results/balanced/l2/cross_cell/report.csv,accuracy_percent,99.7778,percent,results/balanced/l2/cross_cell/predictions.csv
+Independent balanced cross-cell L2,balanced/l2/cross_cell,results/balanced/l2/cross_cell/report.csv,macro_f1,0.997778,,results/balanced/l2/cross_cell/predictions.csv
+Binary L2 validation,binary/l2,results/binary/l2/validation_predictions.csv,correct,400,curves,results/binary/l2/validation_report.csv
+Binary L2 validation,binary/l2,results/binary/l2/validation_predictions.csv,samples,400,curves,results/binary/l2/validation_report.csv
+Binary L2 validation,binary/l2,results/binary/l2/validation_report.csv,accuracy_percent,100.0000,percent,results/binary/l2/validation_predictions.csv
+VGG16 frozen independent,vgg16/frozen/cross_cell,results/vgg16/frozen/cross_cell/predictions.csv,correct,875,curves,results/vgg16/frozen/cross_cell/report.csv
+VGG16 frozen independent,vgg16/frozen/cross_cell,results/vgg16/frozen/cross_cell/predictions.csv,samples,900,curves,results/vgg16/frozen/cross_cell/report.csv
+VGG16 frozen independent,vgg16/frozen/cross_cell,results/vgg16/frozen/cross_cell/report.csv,accuracy_percent,97.2222,percent,results/vgg16/frozen/cross_cell/predictions.csv
+VGG16 fine-tuned independent,vgg16/finetuned/cross_cell,results/vgg16/finetuned/cross_cell/predictions.csv,correct,889,curves,results/vgg16/finetuned/cross_cell/report.csv
+VGG16 fine-tuned independent,vgg16/finetuned/cross_cell,results/vgg16/finetuned/cross_cell/predictions.csv,samples,900,curves,results/vgg16/finetuned/cross_cell/report.csv
+VGG16 fine-tuned independent,vgg16/finetuned/cross_cell,results/vgg16/finetuned/cross_cell/report.csv,accuracy_percent,98.7778,percent,results/vgg16/finetuned/cross_cell/predictions.csv
+Full-map L2 inference,balanced/l2,results/balanced/l2/full_map_predictions.csv,curves,16384,curves,results/balanced/l2/computational_performance.csv
+Full-map L2 inference,balanced/l2,results/balanced/l2/computational_performance.csv,inference_time_seconds,6.8230,seconds,results/balanced/l2/full_map_predictions.csv
+Full-map L2 inference,balanced/l2,results/balanced/l2/full_map_predictions.csv,predicted_count_Intermediate,3765,curves,results/balanced/l2/computational_performance.csv
+Full-map L2 inference,balanced/l2,results/balanced/l2/full_map_predictions.csv,predicted_count_Outside,4439,curves,results/balanced/l2/computational_performance.csv
+Full-map L2 inference,balanced/l2,results/balanced/l2/full_map_predictions.csv,predicted_count_Nanodomain,8180,curves,results/balanced/l2/computational_performance.csv

@@ -1,0 +1,15 @@
+PROJECT LICENSING SCOPE
+
+Copyright © 2026 The Authors
+
+Project-authored executable code is released under the MIT licence. Project-authored datasets, metadata, documentation, figures, tables and custom CNN model artifacts are released under CC BY 4.0 where distributed. The ten custom CNN H5 files in models/balanced/, models/imbalanced/ and models/binary/ are included in the public Zenodo v1.0.0 package.
+
+The three VGG16-derived H5 files are NOT included in the public Zenodo v1.0.0 package:
+  models/vgg16/frozen.h5
+  models/vgg16/finetuned.h5
+  models/vgg16/finetuned_stage1_frozen.h5
+The VGG16 notebooks, benchmark results, figures and documentation remain included. The notebooks use Keras VGG16 with weights="imagenet". Exact H5 redistribution was intentionally omitted because upstream redistribution permission for ImageNet-derived pretrained components was not established clearly enough. This does not state that redistribution is prohibited. The VGG16-derived H5 files are outside the project's MIT and CC BY 4.0 licensing scope.
+
+Third-party and pretrained components remain subject to the exclusions and notices in THIRD_PARTY_NOTICES.md. No ownership or licensing rights over third-party components are asserted or granted here. Neither project licence is a blanket licence for every file in the release.
+
+See LICENSES/MIT.txt, LICENSES/CC-BY-4.0.md and THIRD_PARTY_NOTICES.md.

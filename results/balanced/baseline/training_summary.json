@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "image_size": 224,
+  "batch_size": 32,
+  "epochs_requested": 50,
+  "learning_rate": 0.0001,
+  "training_samples": 2400,
+  "validation_samples": 600,
+  "training_time_minutes": 7.641091934700004,
+  "best_epoch_by_val_loss": 21,
+  "best_val_loss": 0.03536194935441017,
+  "val_accuracy_at_best_val_loss_epoch": 0.9916666746139526,
+  "model_path": "Models/CNN_CAlbicans_Balanced_Baseline.h5"
+}
