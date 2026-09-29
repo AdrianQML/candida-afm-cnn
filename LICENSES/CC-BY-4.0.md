@@ -10,4 +10,4 @@ pretrained-weight rights are granted through this notice.
 
 Attribution should identify the approved creators, project title, matching
 Zenodo version DOI and licence, and indicate changes as required by the licence.
-The author identities and publication order are confirmed in CITATION.cff. The Zenodo version DOI remains pending and must be added to attribution metadata when assigned.
+The author identities and publication order are confirmed in CITATION.cff. The Zenodo v1.0.0 version DOI is 10.5281/zenodo.23030217 and should be included in attribution metadata.

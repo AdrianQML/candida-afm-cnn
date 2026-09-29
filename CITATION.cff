@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata in this file."
 title: "Convolutional Neural Networks for Nanobiomechanical Classification of Atomic Force Microscopy Force-Distance Curves"
 repository-code: "https://github.com/AdrianQML/candida-afm-cnn"
+doi: "10.5281/zenodo.23030217"
 type: software
 version: 1.0.0
 abstract: "CNN classification of Candida albicans AFM force-distance curve images, with balanced, imbalanced, binary, VGG16 and independent cross-cell evaluations."
@@ -38,4 +39,4 @@ authors:
     orcid: "https://orcid.org/0000-0003-3290-9166"
     # Corresponding author; CFF has no corresponding-author boolean field.
     email: "edague@laas.fr"
-# Pending: Zenodo version DOI, publication DOI and release date.
+# Pending: publication DOI and release date.
