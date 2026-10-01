@@ -5,6 +5,7 @@ repository-code: "https://github.com/AdrianQML/candida-afm-cnn"
 doi: "10.5281/zenodo.23030217"
 type: software
 version: 1.0.0
+date-released: 2026-09-30
 abstract: "CNN classification of Candida albicans AFM force-distance curve images, with balanced, imbalanced, binary, VGG16 and independent cross-cell evaluations."
 # Copyright © 2026 The Authors.
 authors:
@@ -39,4 +40,4 @@ authors:
     orcid: "https://orcid.org/0000-0003-3290-9166"
     # Corresponding author; CFF has no corresponding-author boolean field.
     email: "edague@laas.fr"
-# Pending: publication DOI and release date.
+# Pending: publication DOI.
